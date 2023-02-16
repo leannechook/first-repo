@@ -7,15 +7,16 @@ editor_options:
   chunk_output_type: console
 ---
 
-# Some rules about Quarto 
+## Some rules about Quarto 
 
-always put in these 3 lines of code in the YAML:
+always put in these 3 lines of code in the YAML (must be in this format):
 
 format:
   html:
     self-contained: true 
 
 
+## Exercise 7 
 ```{r}
 library(tidyverse)
 library(ggplot2)
