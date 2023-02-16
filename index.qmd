@@ -25,6 +25,7 @@ ggplot(data = storms,
        mapping = aes(x = pressure, 
                      y = wind)) +
   geom_point(aes(color = category), alpha = 0.5) +
-  geom_smooth(se = FALSE, color = "red")
+  geom_smooth(se = FALSE, color = "maroon") +
+  theme_minimal()
 
 ```
